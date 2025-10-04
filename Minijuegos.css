@@ -1,0 +1,32 @@
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.enlaces a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+nav{
+    background: linear-gradient(to bottom left, #FFD700, #FFB300);
+    border: 1px black solid;
+    margin: 0;
+}
+body{
+    font-family: PVZ;
+    background-color:#cba12b;
+}
+@font-face {
+    font-family: PVZ;
+    src: url(Burbank\ Big\ Regular\ Bold.otf);
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+.p1{
+    max-width: 50%;
+}
